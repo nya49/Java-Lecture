@@ -28,7 +28,11 @@ public class Exercise07 {
 			case 2 :
 				System.out.print("출금액> ");
 				int minus = Integer.parseInt(scanner.nextLine());
-				balance -= minus;
+				if(balance < minus) {
+					System.out.println("잔액이 부족합니다. 현재 잔액 " + balance);
+				} else {
+					balance -= minus;
+				}
 				break;
 			case 3 :
 				System.out.print("잔고> ");
