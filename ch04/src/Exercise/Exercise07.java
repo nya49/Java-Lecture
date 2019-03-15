@@ -35,8 +35,7 @@ public class Exercise07 {
 				}
 				break;
 			case 3 :
-				System.out.print("잔고> ");
-				System.out.println(balance);
+				System.out.print("잔고> " + balance);
 				break;
 			case 4 :
 				run = false;
