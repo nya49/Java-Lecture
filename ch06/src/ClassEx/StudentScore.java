@@ -18,7 +18,6 @@ public class StudentScore {
 	
 	double average() {
 		avg = (double)(math + eng + sci) / 3;
-		this.avg = avg;
 		return avg;
 	}
 
