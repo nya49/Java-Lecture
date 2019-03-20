@@ -1,4 +1,4 @@
-package Exercise16;
+package Exercise.ex16;
 
 public class Printer {
 	

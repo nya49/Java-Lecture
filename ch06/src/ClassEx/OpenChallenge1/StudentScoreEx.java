@@ -1,4 +1,4 @@
-package ClassEx;
+package ClassEx.OpenChallenge1;
 
 import java.util.Scanner;
 

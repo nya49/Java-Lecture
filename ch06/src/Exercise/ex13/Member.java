@@ -1,4 +1,4 @@
-package Exercise13;
+package Exercise.ex13;
 
 public class Member {
 	String name;

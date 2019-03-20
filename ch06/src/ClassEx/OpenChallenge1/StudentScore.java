@@ -1,4 +1,4 @@
-package ClassEx;
+package ClassEx.OpenChallenge1;
 
 public class StudentScore {
 	String name;
