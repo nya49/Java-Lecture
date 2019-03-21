@@ -1,7 +1,7 @@
-package ClassEx.OpenChallenge3;
+package OpenChallenge3;
 
-public class Mul {
-
+public class Add {
+	
 	int a;
 	int b;
 	
@@ -12,6 +12,9 @@ public class Mul {
 	}
 	
 	int calculate() {
-		return a*b;
+		return a+b;
 	}
+	
+	
+	
 }

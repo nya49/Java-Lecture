@@ -1,4 +1,4 @@
-package ClassEx.OpenChallenge2;
+package OpenChallenge2;
 
 public class SongEx {
 

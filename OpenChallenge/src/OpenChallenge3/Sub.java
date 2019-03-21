@@ -1,4 +1,4 @@
-package ClassEx.OpenChallenge3;
+package OpenChallenge3;
 
 public class Sub {
 
