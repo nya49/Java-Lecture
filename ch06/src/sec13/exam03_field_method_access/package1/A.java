@@ -4,6 +4,8 @@ public class A {
 	
 	public int field1;
 	int field2;
+	
+	@SuppressWarnings("unused")
 	private int field3;
 	
 	public A() {
