@@ -1,4 +1,4 @@
-package OpenChallenge3;
+package JavaClass.OpenChallenge3;
 
 public class Add {
 	

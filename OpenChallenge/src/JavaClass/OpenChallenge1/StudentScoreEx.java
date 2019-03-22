@@ -1,4 +1,4 @@
-package OpenChallenge1;
+package JavaClass.OpenChallenge1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package OpenChallenge1;
+package JavaClass.OpenChallenge1;
 
 public class StudentScore {
 	String name;

@@ -1,4 +1,4 @@
-package OpenChallenge2;
+package JavaClass.OpenChallenge2;
 
 public class Song {
 	

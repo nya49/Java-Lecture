@@ -1,6 +1,6 @@
-package OpenChallenge3;
+package JavaClass.OpenChallenge3;
 
-public class Mul {
+public class Div {
 
 	int a;
 	int b;
@@ -12,6 +12,6 @@ public class Mul {
 	}
 	
 	int calculate() {
-		return a*b;
+		return a / b;
 	}
 }

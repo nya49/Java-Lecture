@@ -10,7 +10,6 @@ public class Song {
 	int track;
 	
 	public Song() {
-		
 	}
 	
 	public Song(String title, String artist, String album, String composer, String year, int track) {
@@ -31,5 +30,7 @@ public class Song {
 		System.out.println("Year : " + this.year);
 		System.out.println("Track : " + this.track);
 	}
+	
+	
 	
 }
