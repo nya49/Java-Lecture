@@ -11,8 +11,6 @@ public class MemberApp {
 		
 		boolean run = true;
 		
-		int balance = 0;
-		
 		Scanner scan = new Scanner(System.in);
 		
 		while(run) {
