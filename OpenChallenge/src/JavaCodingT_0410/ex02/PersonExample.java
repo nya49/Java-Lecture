@@ -22,23 +22,23 @@ public class PersonExample {
 			}
 		}
 		
-		int kimcount = 0;
-		int leecount = 0;
+		int kimC = 0;
+		int leeC = 0;
 		
 		// 1번
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).contains("김")) {
-				kimcount++;
+				kimC++;
 			}
 		}
-		System.out.println("중복을 포함한 김씨 명수 : " + kimcount + "명");
+		System.out.println("중복을 포함한 김씨 수 : " + kimC + "명");
 
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).contains("이")) {
-				leecount++;
+				leeC++;
 			}
 		}
-		System.out.println("중복을 포함한 이씨 명수 : " + leecount + "명");
+		System.out.println("중복을 포함한 이씨 수 : " + leeC + "명");
 
 		// 2번
 		int jaeyoung = 0;
@@ -47,13 +47,13 @@ public class PersonExample {
 				jaeyoung++;
 			}
 		}
-		System.out.println("이재영이라는 이름은 몇 번 중복 : " + jaeyoung + "번");
+		System.out.println("이재영이름 중복 횟수 : " + jaeyoung + "번");
 		
 		// 3번
-		System.out.println("중복을 제거한 이름 : " + list);
+		System.out.println("중복제거 이름 : " + list);
 		
 		Collections.sort(list);
-		System.out.println("중복을 제거한 이름 오름차순 정렬 : " + list);
+		System.out.println("중복제거 이름 : " + list);
 
 	}
 	

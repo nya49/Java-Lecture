@@ -10,27 +10,23 @@ public class PersonExample {
 				+ "최승혁,이성연,박영서,박민호,전경헌,송정환,김재성,이유덕,"
 				+ "이재영,전경헌" );
 		String name[] = names.split(",");
-		String kim[] = new String[100];
-		String Lee[] = new String[100];
-		int kimcount = 0;
-		int leecount = 0;
+		int kimC = 0;
+		int leeC = 0;
 
 		// 1번
 		for (int i = 0; i < name.length; i++) {
 			if (String.valueOf(name[i].charAt(0)).equals("김")) {
-				kim[i] = name[i];
-				kimcount++;
+				kimC++;
 			}
 		}
-		System.out.println("중복을 포함한 김씨 명수 : " + kimcount + "명");
+		System.out.println("중복을 포함한 김씨 수 : " + kimC + "명");
 
 		for (int i = 0; i < name.length; i++) {
 			if (String.valueOf(name[i].charAt(0)).equals("이")) {
-				Lee[i] = name[i];
-				leecount++;
+				leeC++;
 			}
 		}
-		System.out.println("중복을 포함한 이씨 명수 : " + leecount + "명");
+		System.out.println("중복을 포함한 이씨 수 : " + leeC + "명");
 
 		// 2번
 		int jaeyoung = 0;
@@ -39,7 +35,7 @@ public class PersonExample {
 				jaeyoung++;
 			}
 		}
-		System.out.println("이재영이라는 이름은 몇 번 중복 : " + jaeyoung + "번");
+		System.out.println("이재영이름 중복 횟수 : " + jaeyoung + "번");
 
 		// 3번
 		String noOverlap = "";
@@ -48,13 +44,13 @@ public class PersonExample {
 				noOverlap += (name[i] + " ");
 			}
 		}
-		System.out.print("중복 제거 이름 : ");
+		System.out.print("중복제거 이름 : ");
 		System.out.println(noOverlap);
 
 		// 4번
 		String noOverlapnames[] = noOverlap.split(" ");
 		Arrays.sort(noOverlapnames);
-		System.out.print("중복 제거 이름(오름차순) : ");
+		System.out.print("중복제거 이름 : ");
 		for (int i = 0; i < noOverlapnames.length; i++) {
 			System.out.print(noOverlapnames[i] + " ");
 		}
