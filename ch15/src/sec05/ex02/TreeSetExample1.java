@@ -1,8 +1,8 @@
-package sec05;
+package sec05.ex02;
 
 import java.util.TreeSet;
 
-public class TreeSetExample {
+public class TreeSetExample1 {
 
 	public static void main(String[] args) {
 		TreeSet<Integer> scores = new TreeSet<Integer>();

@@ -27,6 +27,7 @@ public class MapExample {
 			sum += key.getValue();
 			totalScore = sum/keySet.size();
 		}
+	
 			
 		System.out.println("평균점수 : " + totalScore);
 		System.out.println("최고점수 : " + maxScore);

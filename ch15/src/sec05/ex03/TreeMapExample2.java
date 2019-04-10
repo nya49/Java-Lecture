@@ -1,4 +1,4 @@
-package sec05;
+package sec05.ex03;
 
 import java.util.Map;
 import java.util.NavigableMap;

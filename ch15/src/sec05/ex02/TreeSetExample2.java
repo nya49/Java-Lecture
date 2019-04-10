@@ -1,4 +1,4 @@
-package sec05;
+package sec05.ex02;
 
 import java.util.NavigableSet;
 import java.util.TreeSet;

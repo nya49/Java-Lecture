@@ -1,6 +1,5 @@
 package sec04;
 
-import java.util.Objects;
 
 public class Student {
 	public int sno;
