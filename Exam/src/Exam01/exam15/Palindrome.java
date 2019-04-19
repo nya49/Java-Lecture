@@ -1,4 +1,4 @@
-package exam15;
+package Exam01.exam15;
 
 public class Palindrome {
 

@@ -1,4 +1,4 @@
-package exam12;
+package Exam01.exam12;
 
 public class SumAndMean {
 

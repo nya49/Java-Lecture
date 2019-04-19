@@ -1,4 +1,4 @@
-package exam14;
+package Exam01.exam14;
 
 
 public class Person {

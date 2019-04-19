@@ -1,4 +1,4 @@
-package exam11;
+package Exam01.exam11;
 
 public class Summation {
 
