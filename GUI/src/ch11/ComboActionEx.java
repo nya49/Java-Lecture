@@ -39,21 +39,6 @@ public class ComboActionEx extends JFrame {
 
 	}
 
-	
-	class MyItemListener implements ItemListener {
-		public void itemStateChanged(ItemEvent e) {
-			if(e.getStateChange() == 
-				ItemEvent.DESELECTED)
-				return;
-			if(radio[0].isSelected()) 
-				imageLabel.setIcon(image[0]);
-			else if(radio[1].isSelected()) 
-				imageLabel.setIcon(image[1]);
-			else 
-				imageLabel.setIcon(image[2]);
-		}
-	}
-	
 	public static void main(String[] args) {
 		new ComboActionEx();
 
