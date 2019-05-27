@@ -122,7 +122,7 @@ public class BbsDAO {
 	
 	public BbsMember ViewData(int id) {
 		String query = "select bbs.id, bbs.title, member.name, bbs.date, bbs.content from bbs " + 
-				"inner join member on bbs.memberId=member.id where bbs.id=?;";;
+				"inner join member on bbs.memberId=member.id where bbs.id=?;";
 		PreparedStatement pStmt = null;
 		BbsMember bmDto = new BbsMember();
 		int result = -1;
@@ -152,8 +152,8 @@ public class BbsDAO {
 	}
 	
 	public List<BbsMember> selectJoinAll(int number) {
-		String query = "select bbs.id, bbs.title, member.name, bbs.date from bbs " + 
-				"inner join member on bbs.memberId=member.id order by bbs.id desc limit ?;";
+		String query = "select bbs.id,  member.name, bbs.title, bbs.date from bbs " + 
+				"inner join member on bbs.memberId=member.id order by bbs.date desc?;";
 		PreparedStatement pStmt = null;
 		List<BbsMember> bmList = new ArrayList<BbsMember>();
 		try {
@@ -163,9 +163,10 @@ public class BbsDAO {
 			while (rs.next()) {	
 				BbsMember bmDto = new BbsMember();
 				bmDto.setId(rs.getInt(1));
-				bmDto.setTitle(rs.getString(2));
-				bmDto.setName(rs.getString(3));
+				bmDto.setName(rs.getString(2));
+				bmDto.setTitle(rs.getString(3));
 				bmDto.setDate(rs.getString(4));
+				bmDto.setContent(rs.getString(5));
 				bmList.add(bmDto);
 			}
 			rs.close();

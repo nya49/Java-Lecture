@@ -1,0 +1,1 @@
+public=D:\workspace\EGov\java\ch18\src\sec05\ex02\BufferedInputStreamExample.javapublic=D:\workspace\EGov\java\ch18\src\sec05\ex02\BufferedInputStreamExample.javapublic=D:\workspace\EGov\java\ch18\src\sec05\ex02\BufferedOutputStreamExample.javapublic=D:\workspace\EGov\java\ch18\src\sec05\ex02\BufferedOutputStreamExample.java
