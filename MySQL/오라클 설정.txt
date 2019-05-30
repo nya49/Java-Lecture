@@ -1,0 +1,12 @@
+sqlplus / as sysdba			// sql 접속	
+
+create user nya identified by 1234;	// 계정만들기
+	
+grant connect, resource, dba to nya;	// 모든 권한 주기
+
+show user;				// 접속자 보기
+
+alrter user nya identified by 4444;	// 비밀번호 변경
+
+select * from tab;			// 모든 테이블 보기
+
